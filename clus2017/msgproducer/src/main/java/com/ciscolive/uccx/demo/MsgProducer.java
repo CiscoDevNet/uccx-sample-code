@@ -9,6 +9,15 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
+/*
+ * This is a sample JMS message producer class that is used by the sample script webcallback.aef to publish a message to
+ * the specified topic. 
+ * 
+ * This is not a production ready code and can not be used AS-IS.
+ * 
+ * @author jayas@cisco.com
+ * copyright 2016 Cisco Systems Inc.
+ */
 public class MsgProducer {
 	
 	 ActiveMQConnectionFactory connectionFactory =null;
@@ -61,7 +70,9 @@ public class MsgProducer {
             connection.close();
         }
         catch (Exception e) {
-           
+           //TODO:  Handle exception here. 
+        	// throw a custom exception with error mesage and the cause as the exception caught here.
+        	// This results in script throwing WFException
             e.printStackTrace();
         }
         finally {
@@ -70,8 +81,7 @@ public class MsgProducer {
                 try {
 					session.close();
 				} catch (Exception e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+					//  Ignore the error.
 				}
         	}	
         }
