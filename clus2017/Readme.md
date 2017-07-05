@@ -44,7 +44,7 @@ Note that the editor supports the type Document, but the actual instance that th
 
 Use Create JSON Document to create a JSON document instance
 
-If the document is a valid document, but eiher the parsing fails or JSON path expressions does  not return any thing, then the following is the return value.
+If the document is a valid document, but either the parsing fails or JSON path expressions does  not return any thing, then the following is the return value.
 
 * For all array types, it will be an empty array
 * For all other types, it will be null
@@ -55,7 +55,7 @@ This step supports the JSON path syntax as documented at https://github.com/json
 #### Create JSON Document
 Use this step to create a JSON document. This step converts a TEXT document to JSON Document, if the content of TEXT document is a valid JSON.
 
-If you have a string data type , such as the response of Make REST Call step, a TEXT document can be created by using  the expression TEXT[<string value>]
+If you have a string data type , such as the response of Make REST Call step, a TEXT document can be created by using  the expression TEXT[\<string value\>]
 
 ### webcallback.aef
 
@@ -70,7 +70,7 @@ The sample implementation of MsgProducer is included too.
 
 ## MsgProducer
 
-This is a sample project that generats a JMS message producer jar , along with all its dependencies , which upon uploading to CCX and adding to system classpath, can be used in the Do step / other Java expressions in the script. 
+This is a sample project that generates a JMS message producer jar , along with all its dependencies , which upon uploading to CCX and adding to system classpath, can be used in the Do step / other Java expressions in the script. 
 
 ### Building MsgProducer
 
@@ -90,4 +90,4 @@ This is the uber jar that needs to be uploaded to CCX.
 * Ensure the jar is in the list of ‘Selected Classpath Entries’ list in ‘System->Custom File Configruation’ page.
 
 
-Once its uploaded and classpath is verified, the MsgProdcuer can be used in the Do step's Java expressions.
+Once its uploaded and classpath is verified, the MsgProdcuer can be used in the Do step's Java expressions.
