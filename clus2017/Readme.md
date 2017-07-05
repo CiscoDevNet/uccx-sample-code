@@ -88,6 +88,7 @@ This is the uber jar that needs to be uploaded to CCX.
 
 * Upload msgproducer-1.0-jar-with-dependencies.jar using ‘Applications->Document Management’ page of Unified CCX Administration interface
 * Ensure the jar is in the list of ‘Selected Classpath Entries’ list in ‘System->Custom File Configruation’ page.
+* Restart Cisco Unified CCX Engine and Cisco Unified CCX Administration services on both the CCX nodes (in case of HA ).
 
 
-Once its uploaded and classpath is verified, the MsgProdcuer can be used in the Do step's Java expressions.
+Once the above steps are done, the MsgProdcuer can be used in the Do step's Java expressions.
