@@ -1,5 +1,5 @@
 # Introduction
-This folder contains the CCX scripts that were used for the session BRKCCT-2306 in Cisco Live US 2017.
+This folder contains the CCX scripts that were used for the session BRKCCT-2301 in Cisco Live US 2017.
 
 Apart from the scripts, it includes a sample Java project that when built, creates an uber jar that can be uploaded to CCX for custom step implementation . This is used in the script webcallback.aef
 
