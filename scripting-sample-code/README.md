@@ -1,12 +1,13 @@
 # Unified CCX Scripting Sample Code
-This project contains sample code to be used with [Unified CCX Scripting](), the ability for developers to program the business logic of how to handle a Voice Call or an Http Contact.
+This project contains sample code to be used with [Unified CCX Scripting](https://developer.cisco.com/site/contact-center-express/docs/#scripting-overview), the ability for developers to program the business logic of how to handle a Voice Call or an Http Contact.
 
-Documentation for the CCX Scripting can be found in the [Scripting and Development Series Guide]().
+Documentation for the CCX Scripting can be found in the [Scripting and Development Series Guide](https://developer.cisco.com/site/contact-center-express/docs/#scripting-and-development-guide).
 
 ## Disclaimer
 These sample codes are only a sample and are **NOT guaranteed to be bug free and production quality**.
 
 The sample codes are meant to:
+
 - Illustrate how to use the SDK/APIs
 - Start as a base for developers to build upon
 

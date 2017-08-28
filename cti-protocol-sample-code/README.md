@@ -1,7 +1,7 @@
 # Unified CCX CTI Protocol Sample Code
-This project contains sample code to be used with the [Unified CCX CTI Protocol](), a set of rules and message definitions for enabling a client to receive telephony information and control telephony functions through Unified CCX such as making and receiving voice calls and caller identification.
+This project contains sample code to be used with the [Unified CCX CTI Protocol](https://developer.cisco.com/site/contact-center-express/docs/#cti-protocol-overview), a set of rules and message definitions for enabling a client to receive telephony information and control telephony functions through Unified CCX such as making and receiving voice calls and caller identification.
 
-Documentation for the CCX CTI Protocol can be found in the [CTI Protocol Developer Guidee]().
+Documentation for the CCX CTI Protocol can be found in the [CTI Protocol Developer Guide](https://developer.cisco.com/site/contact-center-express/docs/#cti-protocol-dev-guide).
 
 ## Disclaimer
 These sample codes are only a sample and are **NOT guaranteed to be bug free and production quality**.

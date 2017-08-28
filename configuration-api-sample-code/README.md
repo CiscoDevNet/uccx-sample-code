@@ -1,12 +1,13 @@
 # Unified CCX Configuration API Sample Code
-This project contains sample code to be used with the [Unified CCX Configuration API](), which are REST APIs for the configuration of inbound and outbound applications on UCCX.
+This project contains sample code to be used with the [Unified CCX Configuration API](https://developer.cisco.com/site/contact-center-express/docs/#configuration-api-overview), which are REST APIs for the configuration of inbound and outbound applications on UCCX.
 
-Documentation for the CCX Configuration APIs can be found in the [Configuration API Developer Guide]().
+Documentation for the CCX Configuration APIs can be found in the [Configuration API Developer Guide](https://developer.cisco.com/site/contact-center-express/docs/#configuration-api-dev-guide).
 
 ## Disclaimer
 These sample codes are only a sample and are **NOT guaranteed to be bug free and production quality**.
 
 The sample codes are meant to:
+
 - Illustrate how to use the SDK/APIs
 - Start as a base for developers to build upon
 
