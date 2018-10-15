@@ -1,3 +1,5 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/uccx-sample-code)
+
 # Unified Contact Center Express Sample Code
 This project contains sample code to be used with [Cisco Unified Contact Center Express](), an IP-based Automated Call Distribution (ACD) system that queues and distributes incoming calls.
 
