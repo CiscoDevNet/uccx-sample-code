@@ -1,0 +1,12 @@
+#OPTIONAL property for the sso mode (sso/nonsso) [default is nonsso]
+sso.mode=nonsso
+
+# Provide the base URI of UCCX node
+ids1_url=https://<fully qualified host name of UCCX publisher node>:8553/ids/v1/
+
+# If UCCX is deployed in High Availability mode, provide the base URI of the second node
+ids2_url=https://<fully qualified host name of UCCX Subscriber node>:8553/ids/v1/
+
+ids.client.redirect_base_uri=<client application callback which expects the SSO token post successful authentication with IdP>
+
+ids.client.id=<code taken from idsadmin page>
